@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+	div{
+		width:100px;
+		height: 50px;
+		background-color: pink;
+		font-weight: bold;
+		position: relative;
+		-webkit-animation: mymove 5s infinite;
+		-o-animation:mymove 5s infinite;
+		animation: mymove 5s infinite;
+	}
+	#div{animation-timing-function: linear;}	
+	#div{animation-timing-function: ease;}
+	#div{animation-timing-function: ease-in;}
+	#div{animation-timing-function: ease-in-out;}
+	#div{animation-timing-function: ease-out;}
+	@keyframes mymove{
+		from{left:0px;}
+		to{left:500px;}
+	}
+</style>
+	</head>
+	</html>	
